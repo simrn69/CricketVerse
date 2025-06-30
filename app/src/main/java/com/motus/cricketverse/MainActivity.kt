@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.motus.cricketverse.ScoreFragment
+import com.motus.cricketverse.GamesFragment
+import com.motus.cricketverse.QuizFragment
 class MainActivity : AppCompatActivity() {
 
     private lateinit var bottomNavigationView: BottomNavigationView
@@ -17,11 +19,15 @@ class MainActivity : AppCompatActivity() {
         loadFragment(MatchesFragment()) // Default tab
 
         bottomNavigationView.setOnItemSelectedListener { item ->
-            when (item.itemId) {
-                R.id.nav_matches -> loadFragment(MatchesFragment())
-                R.id.nav_scores -> loadFragment(ScoreFragment())
-                R.id.nav_profile -> loadFragment(ProfileFragment())
+            val fragment: Fragment = when (item.itemId) {
+                R.id.nav_matches -> MatchesFragment()
+                R.id.nav_scores -> ScoreFragment()
+                R.id.nav_games -> GamesFragment()
+                R.id.nav_quiz -> QuizFragment()
+                R.id.nav_profile -> ProfileFragment()
+                else -> MatchesFragment()
             }
+            loadFragment(fragment)
             true
         }
     }
