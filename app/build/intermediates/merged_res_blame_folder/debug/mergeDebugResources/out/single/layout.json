@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\item_score.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\item_score.xml"
+    },
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\fragment_matches.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\fragment_matches.xml"
+    },
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\fragment_profile.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "com.motus.cricketverse.app-mergeDebugResources-35:/layout/fragment_scores.xml",
+        "source": "com.motus.cricketverse.app-main-38:/layout/fragment_scores.xml"
+    },
+    {
+        "merged": "com.motus.cricketverse.app-mergeDebugResources-35:/layout/fragment_matches.xml",
+        "source": "com.motus.cricketverse.app-main-38:/layout/fragment_matches.xml"
+    },
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\item_match.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\item_match.xml"
+    },
+    {
+        "merged": "com.motus.cricketverse.app-mergeDebugResources-35:/layout/fragment_profile.xml",
+        "source": "com.motus.cricketverse.app-main-38:/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-mergeDebugResources-35:\\layout\\fragment_scores.xml",
+        "source": "C:\\Users\\simrn\\.gradle\\daemon\\8.13\\com.motus.cricketverse.app-main-38:\\layout\\fragment_scores.xml"
+    }
+]

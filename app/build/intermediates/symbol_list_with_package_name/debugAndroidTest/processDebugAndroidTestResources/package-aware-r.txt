@@ -1,0 +1,3 @@
+com.motus.cricketverse.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

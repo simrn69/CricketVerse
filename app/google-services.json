@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658754685124",
+    "project_id": "cricketverse-f88d2",
+    "storage_bucket": "cricketverse-f88d2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658754685124:android:5ab90ae36b1b2dff326191",
+        "android_client_info": {
+          "package_name": "com.motus.cricketverse"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVHbB3WoHxTcqVOk62y3Pj5DziSM_JCzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
