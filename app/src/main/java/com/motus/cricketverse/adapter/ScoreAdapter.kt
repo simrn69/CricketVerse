@@ -33,10 +33,16 @@ class ScoreAdapter : RecyclerView.Adapter<ScoreAdapter.ScoreViewHolder>() {
     class ScoreViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val teamName: TextView = itemView.findViewById(R.id.teamNameTextView)
         private val score: TextView = itemView.findViewById(R.id.scoreTextView)
+        private val overs: TextView = itemView.findViewById(R.id.oversTextView)
+        private val wickets: TextView = itemView.findViewById(R.id.wicketsTextView)
+        private val status: TextView = itemView.findViewById(R.id.statusTextView)
 
         fun bind(item: ScoreItem) {
             teamName.text = item.teamName
             score.text = item.score
+            overs.text = "Overs: ${item.overs}"
+            wickets.text = "Wickets: ${item.wickets}"
+            status.text = item.status
         }
     }
 }

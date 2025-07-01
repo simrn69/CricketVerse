@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "id": "1",
+      "name": "India vs Australia",
+      "status": "Live",
+      "venue": "Wankhede Stadium",
+      "date": "2025-07-01",
+      "teamName": "India",
+      "score": "150/3",
+      "overs": "20",
+      "wickets": "3"
+    },
+    {
+      "id": "2",
+      "name": "Pakistan vs England",
+      "status": "Upcoming",
+      "venue": "Lahore",
+      "date": "2025-07-02",
+      "teamName": "Pakistan",
+      "score": "0/0",
+      "overs": "0",
+      "wickets": "0"
+    }
+  ]
+}
