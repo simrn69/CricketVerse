@@ -1,23 +1,11 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/nav_home" android:icon="@drawable/ic_home" android:title="Home" />
-    <item
-        android:id="@+id/nav_matches"
-        android:icon="@drawable/ic_matches"
-        android:title="Matches" />
-    <item
-        android:id="@+id/nav_scores"
-        android:icon="@drawable/ic_scores"
-        android:title="Scores" />
-    <item
-        android:id="@+id/nav_games"
-        android:icon="@drawable/ic_games"
-        android:title="Games" />
-    <item
-        android:id="@+id/nav_quiz"
-        android:icon="@drawable/ic_quiz"
-        android:title="Quiz" />
-    <item
-        android:id="@+id/nav_profile"
-        android:icon="@drawable/ic_profile"
-        android:title="Profile" />
+    <item android:id="@+id/nav_scores" android:icon="@drawable/ic_scores" android:title="Scores" />
+    <item android:id="@+id/nav_map" android:icon="@drawable/ic_home" android:title="Map" />
+    <item android:id="@+id/nav_quiz" android:icon="@drawable/ic_quiz" android:title="Quiz" />
+    <item android:id="@+id/nav_games" android:icon="@drawable/ic_games" android:title="Games" />
+    <item android:id="@+id/nav_analytics" android:icon="@drawable/ic_matches" android:title="Stats" />
+    <item android:id="@+id/nav_youtube" android:icon="@drawable/ic_games" android:title="Videos" />
+    <item android:id="@+id/nav_kismet" android:icon="@drawable/ic_profile" android:title="Kismet" />
+    <item android:id="@+id/nav_fantasy" android:icon="@drawable/ic_scores" android:title="Fantasy" />
 </menu>
