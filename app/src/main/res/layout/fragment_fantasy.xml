@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="24dp"
+    android:paddingBottom="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team A vs Team B"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/winnerField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Match Winner" />
+
+    <EditText
+        android:id="@+id/batsmanField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Top Batsman" />
+
+    <EditText
+        android:id="@+id/bowlerField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Top Bowler" />
+
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Prediction" />
+
+    <Button
+        android:id="@+id/editButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Edit Prediction" />
+
+</LinearLayout>
