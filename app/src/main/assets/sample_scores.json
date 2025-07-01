@@ -22,6 +22,17 @@
       "score": "0/0",
       "overs": "0",
       "wickets": "0"
+    },
+    {
+      "id": "3",
+      "name": "South Africa vs New Zealand",
+      "status": "Completed",
+      "venue": "Cape Town",
+      "date": "2025-06-30",
+      "teamName": "South Africa",
+      "score": "320/8",
+      "overs": "50",
+      "wickets": "8"
     }
   ]
 }
